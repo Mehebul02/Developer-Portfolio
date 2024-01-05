@@ -1,60 +1,125 @@
-
-
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
 }
-/* primary color */
-.text-primary{
-    color: #FD6E0A;
+
+/* Common styles */
+.text-primary {
+    color: #fd6e0a;
     font-size: 45px;
     font-weight: 800;
 }
-.btn-primary{
-border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-font-size: 20px;
-font-weight: 700;
-color: #FFF;
-padding: 15px 33px;
+
+.btn-primary {
+    border-radius: 5px;
+    background: #fd6e0a;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 33px;
 }
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.btn-primary:hover {
+    background-color: #07954b;
+}
+
 /* nav styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
-
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
     color: #181818;
     font-weight: 800;
 }
-nav >ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 51px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
+    font-size: 20px;
+    font-weight: 400;
 }
+
 /* .header styles */
-.header{
-    background: #FFF8F3;
+.header {
+    background: #fff8f3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url(../images/developer.png);
+    background-position: bottom left;
 }
-.banner{
-    padding: 20px 30px 30px 150px;
+
+.banner {
+    padding: 20px 30px 0px 170px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner-content{
-justify-content: space-between;
+
+.banner-content {
+    max-width: 500px;
 }
-.banner .profile-pic{
-    width: 450px;
+
+.banner-open {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 76px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-deception {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.about {
+    padding: 120px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 120px 0;
 }
