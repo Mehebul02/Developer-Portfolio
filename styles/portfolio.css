@@ -134,3 +134,7 @@ main {
 .about-info {
   text-align: center;
 }
+/* Skill Section style */
+.skills-container{
+    display: flex;
+}
