@@ -35,7 +35,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #07954b;
+  /* background-color: #07954b; */
 }
 
 /* nav styles */
@@ -198,20 +198,41 @@ main section {
 }
 /* Footer Section Styles */
 footer {
-  margin-top: 100px;
- padding: 130px 130px;
+  margin-top: 50px;
+  padding: 130px 130px;
   display: flex;
-  gap: 30px;
-  background: #FFF8F3;
+  gap: 120px;
+  background: #fff8f3;
+}
+.footer-colume {
+  width: 50%;
 }
 .footer-title {
   color: #181818;
   text-align: center;
   font-size: 30px;
   font-weight: 700;
+  border-bottom: 2px solid rgb(244, 177, 6);
 }
 .footer-description {
   color: #474747;
   font-size: 16px;
   font-weight: 400;
+}
+.social-link a{
+  margin-right: 25px;
+}
+/* Form Section styles */
+.contact input[type="text"],input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 42px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border: 2px solid black;
+  width: 100%;
 }
